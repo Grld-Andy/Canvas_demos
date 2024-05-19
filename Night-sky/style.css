@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(black 5%, blue 300%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97.5vh;
+}
+h1{
+    color: white;
+    font-size: 3em;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.521), 0 0 5px white;
+}
+#canvas{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
